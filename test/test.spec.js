@@ -1,4 +1,4 @@
-const findChars = require('../index');
+const findChars = require('../findChars');
 const { expect } = require('chai')
 
 describe('#findChars()', function () {
