@@ -16,6 +16,7 @@
             - set total
 */
 
+// Is it cheating to use lodash?
 const _ = require('lodash');
 
 module.exports = function findChars(str, min) {
@@ -33,6 +34,7 @@ module.exports = function findChars(str, min) {
 
     let total = chars.length;
     const result = counts.map(({ char, count }) => {
+        // return the char every time the new total is not less than min
         if (total - count >= min) {
             total -= count;
             return char;
