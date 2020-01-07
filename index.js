@@ -5,6 +5,10 @@
     For example: [‘H’, ‘i’, ‘!’, ‘ ’]
 */
 
+/** answer:
+  [ '0', '5', 'I', 'y', 'j', 'k', ',', '’', ':', 'q', 'v', '.', 'd', 'b', 'f', 'w', 'm', 'c', 'n', 'p', 'g', 'u', 'i', 'l', 's', 'h', 'o', 'r', 'a', 'e' ]
+*/
+
 /*
     - create array of chars
     - get counts of each
